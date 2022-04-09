@@ -15,6 +15,8 @@ removeDuplicateSubstring(${CMAKE_CXX_FLAGS} CMAKE_CXX_FLAGS)
 message("SOURCE_FILES=${SOURCE_FILES}")
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 
+# 设置目标文件的前后缀
+set_target_properties(${PROJECT_NAME} PROPERTIES PREFIX "" SUFFIX ".elf")
 
 set_target_properties(${PROJECT_NAME} PROPERTIES LINKER_LANGUAGE C)
 
@@ -30,7 +32,6 @@ if (EXISTS ${SDK_ROOT}/src/${PROJ}/project.cmake)
     include(${SDK_ROOT}/src/${PROJ}/project.cmake)
 endif ()
 
-# Build target
 # 将编译生成的ELF文件转换为二进制文件
 add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
         COMMAND ${CMAKE_OBJCOPY} --output-format=binary ${EXECUTABLE_OUTPUT_PATH}/${PROJECT_NAME}.elf ${EXECUTABLE_OUTPUT_PATH}/${PROJECT_NAME}.bin

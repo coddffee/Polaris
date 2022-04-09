@@ -9,19 +9,29 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/build/bin)
 set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/build/lib)
 
 # SDK配置
-# 设置编译工具链路径，TOOLCHAIN是K210-SDK中定义的变量，需由使用者指定
+# 设置编译工具链路径，TOOLCHAIN是K210-SDK中要求的变量，需由使用者指定
 set(TOOLCHAIN C:/DevEnv/Kendryte-Toolchain/bin)
-# 指定编译平台为WIN32，WIN32是K210-SDK中定义的变量，根据此变量指定toolchain的后缀名，需由使用者指定
+# 指定编译平台为WIN32，WIN32是K210-SDK中要求的变量，根据此变量指定toolchain的后缀名，需由使用者指定
 set(WIN32 TRUE)
 
+# 导入关于编译工具链的配置及编译链接选项的配置
 include(${PROJECT_SOURCE_DIR}/sdk/k210/cmake/common.cmake)
 
-# 编译子路径
+# 编译K210-SDK
 add_subdirectory(${PROJECT_SOURCE_DIR}/sdk/k210/cmake)
-add_subdirectory(${PROJECT_SOURCE_DIR}/project)
+
+########## 编译project目录 ##########
+# 遍历指定目录下的所有源文件
+file(GLOB_RECURSE SOURCE_FILES "${PROJECT_SOURCE_DIR}/project/*.c") 
+# 生成可执行文件，SOURCE_FILES是executable.cmake中要求定义的变量，用于存储用来生成可执行文件的源文件
+# 在executable.cmake中，可执行文件名被要求为${PROJECT_NAME}
+include(${PROJECT_SOURCE_DIR}/sdk/k210/cmake/executable.cmake)
+# 添加头文件搜索目录
+target_include_directories(${PROJECT_NAME} PUBLIC
+    ${PROJECT_SOURCE_DIR}/project
+    ${PROJECT_SOURCE_DIR}/sdk/k210/lib/bsp/include
+    ${PROJECT_SOURCE_DIR}/sdk/k210/lib/drivers/include
+    ${PROJECT_SOURCE_DIR}/sdk/k210/lib/utils/include)
 
 # 链接目标文件
 target_link_libraries(${PROJECT_NAME} kendryte)
-
-
-
