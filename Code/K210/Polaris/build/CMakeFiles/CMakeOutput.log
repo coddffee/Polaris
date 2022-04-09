@@ -1,0 +1,251 @@
+The target system is: Generic -  - 
+The host system is: Windows - 10.0.22000 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/DevEnv/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "E:/Project/Polaris/Code/K210/Polaris/build/CMakeFiles/3.23.0-rc5/CompilerIdC/a.exe"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+gcc.exe (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 8.1.0
+Copyright (C) 2018 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/Project/Polaris/Code/K210/Polaris/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/DevEnv/MinGW/bin/mingw32-make.exe -f Makefile cmTC_902da/fast && C:/DevEnv/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_902da.dir\build.make CMakeFiles/cmTC_902da.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/Project/Polaris/Code/K210/Polaris/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_902da.dir/testCCompiler.c.obj
+C:\DevEnv\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_902da.dir\testCCompiler.c.obj -c E:\Project\Polaris\Code\K210\Polaris\build\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_902da
+C:\DevEnv\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_902da.dir\link.txt --verbose=1
+C:\DevEnv\MinGW\bin\gcc.exe CMakeFiles/cmTC_902da.dir/testCCompiler.c.obj -o cmTC_902da 
+mingw32-make.exe[1]: Leaving directory 'E:/Project/Polaris/Code/K210/Polaris/build/CMakeFiles/CMakeTmp'
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/DevEnv/Kendryte-Toolchain/bin/riscv64-unknown-elf-g++.exe 
+Build flags: ;-mcmodel=medany;-mabi=lp64f;-march=rv64imafc;-fno-common;-ffunction-sections;-fdata-sections;-fstrict-volatile-bitfields;-fno-zero-initialized-in-bss;-ffast-math;-fno-math-errno;-fsingle-precision-constant;-Os;-ggdb;-std=gnu++17;-LE:/Project/Polaris/Code/K210/Polaris/sdk/k210/include/;-mcmodel=medany;-mabi=lp64f;-march=rv64imafc;-fno-common;-ffunction-sections;-fdata-sections;-fstrict-volatile-bitfields;-fno-zero-initialized-in-bss;-ffast-math;-fno-math-errno;-fsingle-precision-constant;-Os;-ggdb;-std=gnu++17;-Wall;-Werror=all;-Wno-error=unused-function;-Wno-error=unused-but-set-variable;-Wno-error=unused-variable;-Wno-error=deprecated-declarations;-Wextra;-Werror=frame-larger-than=32768;-Wno-unused-parameter;-Wno-sign-compare;-Wno-error=missing-braces;-Wno-error=return-type;-Wno-error=pointer-sign;-Wno-missing-braces;-Wno-strict-aliasing;-Wno-implicit-fallthrough;-Wno-missing-field-initializers;-Wno-int-to-pointer-cast;-Wno-error=comment;-Wno-error=logical-not-parentheses;-Wno-error=duplicate-decl-specifier;-Wno-error=parentheses
+Id flags:  
+
+The output was:
+0
+c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000000100b0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "E:/Project/Polaris/Code/K210/Polaris/build/CMakeFiles/3.23.0-rc5/CompilerIdCXX/a.out"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/Project/Polaris/Code/K210/Polaris/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/DevEnv/Kendryte-Toolchain/bin/make.exe -f Makefile cmTC_f61b5/fast && C:/DevEnv/Kendryte-Toolchain/bin/make.exe  -f CMakeFiles\cmTC_f61b5.dir\build.make CMakeFiles/cmTC_f61b5.dir/build
+make.exe[1]: Entering directory 'E:/Project/Polaris/Code/K210/Polaris/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f61b5.dir/CMakeCXXCompilerABI.cpp.obj
+C:\DevEnv\Kendryte-Toolchain\bin\riscv64-unknown-elf-g++.exe   -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -LE:/Project/Polaris/Code/K210/Polaris/sdk/k210/include/ -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses    -v -o CMakeFiles\cmTC_f61b5.dir\CMakeCXXCompilerABI.cpp.obj -c C:\DevEnv\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=C:\DevEnv\Kendryte-Toolchain\bin\riscv64-unknown-elf-g++.exe
+Target: riscv64-unknown-elf
+Configured with: /workdir/riscv-gcc/configure --target=riscv64-unknown-elf --host=x86_64-w64-mingw32 --prefix=/opt/kendryte-toolchain --disable-shared --enable-threads=posix --enable-languages=c,c++ --enable-libatomic --without-system-zlib --enable-tls --with-newlib --with-sysroot=/opt/kendryte-toolchain/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --src=.././riscv-gcc --enable-checking=yes --disable-multilib --with-abi=lp64f --with-arch=rv64imafc 'CFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections  -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections -mcmodel=medany'
+Thread model: posix
+gcc version 8.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-Os' '-ggdb' '-std=gnu++17' '-LE:/Project/Polaris/Code/K210/Polaris/sdk/k210/include/' '-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu++17' '-Wall' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wextra' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-v' '-o' 'CMakeFiles\cmTC_f61b5.dir\CMakeCXXCompilerABI.cpp.obj' '-c'
+ c:/devenv/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/cc1plus.exe -quiet -v -iprefix c:\devenv\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/ -isysroot c:\devenv\kendryte-toolchain\bin\../riscv64-unknown-elf C:\DevEnv\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcmodel=medany -mabi=lp64f -march=rv64imafc -mcmodel=medany -mabi=lp64f -march=rv64imafc -auxbase-strip CMakeFiles\cmTC_f61b5.dir\CMakeCXXCompilerABI.cpp.obj -ggdb -ggdb -Os -Os -Wall -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wimplicit-fallthrough=0 -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses -std=gnu++17 -std=gnu++17 -version -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -o C:\Users\34894\AppData\Local\Temp\ccha0Dvo.s
+GNU C++17 (GCC) version 8.2.0 (riscv64-unknown-elf)
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "c:/devenv/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0"
+ignoring duplicate directory "c:/devenv/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0/riscv64-unknown-elf"
+ignoring duplicate directory "c:/devenv/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0/backward"
+ignoring duplicate directory "c:/devenv/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/include"
+ignoring nonexistent directory "c:\devenv\kendryte-toolchain\bin\../riscv64-unknown-elf/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../include"
+ignoring duplicate directory "c:/devenv/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed"
+ignoring duplicate directory "c:/devenv/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include"
+ignoring duplicate directory "c:\devenv\kendryte-toolchain\bin\../riscv64-unknown-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\devenv\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0
+ c:\devenv\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0/riscv64-unknown-elf
+ c:\devenv\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0/backward
+ c:\devenv\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/include
+ c:\devenv\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed
+ c:\devenv\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include
+End of search list.
+GNU C++17 (GCC) version 8.2.0 (riscv64-unknown-elf)
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: ef61d50fc68e6680db9bb7b8b9c77491
+COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-Os' '-ggdb' '-std=gnu++17' '-LE:/Project/Polaris/Code/K210/Polaris/sdk/k210/include/' '-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu++17' '-Wall' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wextra' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-v' '-o' 'CMakeFiles\cmTC_f61b5.dir\CMakeCXXCompilerABI.cpp.obj' '-c'
+ c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/as.exe -v --traditional-format -march=rv64imafc -march=rv64imafc -mabi=lp64f -mabi=lp64f -o CMakeFiles\cmTC_f61b5.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\34894\AppData\Local\Temp\ccha0Dvo.s
+GNU assembler version 2.31.51 (riscv64-unknown-elf) using BFD version (GNU Binutils) 2.31.51
+COMPILER_PATH=c:/devenv/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/;c:/devenv/kendryte-toolchain/bin/../libexec/gcc/;c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/
+LIBRARY_PATH=c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/;c:/devenv/kendryte-toolchain/bin/../lib/gcc/;c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/;c:/devenv/kendryte-toolchain/bin/../riscv64-unknown-elf/lib/
+COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-Os' '-ggdb' '-std=gnu++17' '-LE:/Project/Polaris/Code/K210/Polaris/sdk/k210/include/' '-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu++17' '-Wall' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wextra' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-v' '-o' 'CMakeFiles\cmTC_f61b5.dir\CMakeCXXCompilerABI.cpp.obj' '-c'
+Linking CXX executable cmTC_f61b5
+C:\DevEnv\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_f61b5.dir\link.txt --verbose=1
+C:\DevEnv\Kendryte-Toolchain\bin\riscv64-unknown-elf-g++.exe  -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -LE:/Project/Polaris/Code/K210/Polaris/sdk/k210/include/ -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses   -v CMakeFiles/cmTC_f61b5.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_f61b5 
+Using built-in specs.
+COLLECT_GCC=C:\DevEnv\Kendryte-Toolchain\bin\riscv64-unknown-elf-g++.exe
+COLLECT_LTO_WRAPPER=c:/devenv/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe
+Target: riscv64-unknown-elf
+Configured with: /workdir/riscv-gcc/configure --target=riscv64-unknown-elf --host=x86_64-w64-mingw32 --prefix=/opt/kendryte-toolchain --disable-shared --enable-threads=posix --enable-languages=c,c++ --enable-libatomic --without-system-zlib --enable-tls --with-newlib --with-sysroot=/opt/kendryte-toolchain/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --src=.././riscv-gcc --enable-checking=yes --disable-multilib --with-abi=lp64f --with-arch=rv64imafc 'CFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections  -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections -mcmodel=medany'
+Thread model: posix
+gcc version 8.2.0 (GCC) 
+COMPILER_PATH=c:/devenv/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/;c:/devenv/kendryte-toolchain/bin/../libexec/gcc/;c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/
+LIBRARY_PATH=c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/;c:/devenv/kendryte-toolchain/bin/../lib/gcc/;c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/;c:/devenv/kendryte-toolchain/bin/../riscv64-unknown-elf/lib/
+COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-Os' '-ggdb' '-std=gnu++17' '-LE:/Project/Polaris/Code/K210/Polaris/sdk/k210/include/' '-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu++17' '-Wall' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wextra' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-v' '-o' 'cmTC_f61b5'
+ c:/devenv/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/collect2.exe -plugin c:/devenv/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=c:/devenv/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\34894\AppData\Local\Temp\ccZYthpw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=c:\devenv\kendryte-toolchain\bin\../riscv64-unknown-elf -melf64lriscv -o cmTC_f61b5 c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o -LE:/Project/Polaris/Code/K210/Polaris/sdk/k210/include/ -Lc:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0 -Lc:/devenv/kendryte-toolchain/bin/../lib/gcc -Lc:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib -Lc:/devenv/kendryte-toolchain/bin/../riscv64-unknown-elf/lib CMakeFiles/cmTC_f61b5.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc --start-group -lc -lgloss --end-group -lgcc c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o
+c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000000100b0
+COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-Os' '-ggdb' '-std=gnu++17' '-LE:/Project/Polaris/Code/K210/Polaris/sdk/k210/include/' '-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu++17' '-Wall' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wextra' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-v' '-o' 'cmTC_f61b5'
+make.exe[1]: Leaving directory 'E:/Project/Polaris/Code/K210/Polaris/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0]
+    add: [c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0/riscv64-unknown-elf]
+    add: [c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0/backward]
+    add: [c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/include]
+    add: [c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed]
+    add: [c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include]
+  end of search list found
+  collapse include dir [c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0] ==> [C:/DevEnv/Kendryte-Toolchain/riscv64-unknown-elf/include/c++/8.2.0]
+  collapse include dir [c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0/riscv64-unknown-elf] ==> [C:/DevEnv/Kendryte-Toolchain/riscv64-unknown-elf/include/c++/8.2.0/riscv64-unknown-elf]
+  collapse include dir [c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0/backward] ==> [C:/DevEnv/Kendryte-Toolchain/riscv64-unknown-elf/include/c++/8.2.0/backward]
+  collapse include dir [c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/include] ==> [C:/DevEnv/Kendryte-Toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/include]
+  collapse include dir [c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed] ==> [C:/DevEnv/Kendryte-Toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed]
+  collapse include dir [c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include] ==> [C:/DevEnv/Kendryte-Toolchain/riscv64-unknown-elf/include]
+  implicit include dirs: [C:/DevEnv/Kendryte-Toolchain/riscv64-unknown-elf/include/c++/8.2.0;C:/DevEnv/Kendryte-Toolchain/riscv64-unknown-elf/include/c++/8.2.0/riscv64-unknown-elf;C:/DevEnv/Kendryte-Toolchain/riscv64-unknown-elf/include/c++/8.2.0/backward;C:/DevEnv/Kendryte-Toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/include;C:/DevEnv/Kendryte-Toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed;C:/DevEnv/Kendryte-Toolchain/riscv64-unknown-elf/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(riscv64-unknown-elf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: E:/Project/Polaris/Code/K210/Polaris/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/DevEnv/Kendryte-Toolchain/bin/make.exe -f Makefile cmTC_f61b5/fast && C:/DevEnv/Kendryte-Toolchain/bin/make.exe  -f CMakeFiles\cmTC_f61b5.dir\build.make CMakeFiles/cmTC_f61b5.dir/build]
+  ignore line: [make.exe[1]: Entering directory 'E:/Project/Polaris/Code/K210/Polaris/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_f61b5.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\DevEnv\Kendryte-Toolchain\bin\riscv64-unknown-elf-g++.exe   -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -LE:/Project/Polaris/Code/K210/Polaris/sdk/k210/include/ -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses    -v -o CMakeFiles\cmTC_f61b5.dir\CMakeCXXCompilerABI.cpp.obj -c C:\DevEnv\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\DevEnv\Kendryte-Toolchain\bin\riscv64-unknown-elf-g++.exe]
+  ignore line: [Target: riscv64-unknown-elf]
+  ignore line: [Configured with: /workdir/riscv-gcc/configure --target=riscv64-unknown-elf --host=x86_64-w64-mingw32 --prefix=/opt/kendryte-toolchain --disable-shared --enable-threads=posix --enable-languages=c c++ --enable-libatomic --without-system-zlib --enable-tls --with-newlib --with-sysroot=/opt/kendryte-toolchain/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --src=.././riscv-gcc --enable-checking=yes --disable-multilib --with-abi=lp64f --with-arch=rv64imafc 'CFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections  -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections -mcmodel=medany']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-Os' '-ggdb' '-std=gnu++17' '-LE:/Project/Polaris/Code/K210/Polaris/sdk/k210/include/' '-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu++17' '-Wall' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wextra' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-v' '-o' 'CMakeFiles\cmTC_f61b5.dir\CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [ c:/devenv/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/cc1plus.exe -quiet -v -iprefix c:\devenv\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/ -isysroot c:\devenv\kendryte-toolchain\bin\../riscv64-unknown-elf C:\DevEnv\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcmodel=medany -mabi=lp64f -march=rv64imafc -mcmodel=medany -mabi=lp64f -march=rv64imafc -auxbase-strip CMakeFiles\cmTC_f61b5.dir\CMakeCXXCompilerABI.cpp.obj -ggdb -ggdb -Os -Os -Wall -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wimplicit-fallthrough=0 -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses -std=gnu++17 -std=gnu++17 -version -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -o C:\Users\34894\AppData\Local\Temp\ccha0Dvo.s]
+  ignore line: [GNU C++17 (GCC) version 8.2.0 (riscv64-unknown-elf)]
+  ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096]
+  ignore line: [ignoring duplicate directory "c:/devenv/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0"]
+  ignore line: [ignoring duplicate directory "c:/devenv/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0/riscv64-unknown-elf"]
+  ignore line: [ignoring duplicate directory "c:/devenv/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0/backward"]
+  ignore line: [ignoring duplicate directory "c:/devenv/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/include"]
+  ignore line: [ignoring nonexistent directory "c:\devenv\kendryte-toolchain\bin\../riscv64-unknown-elf/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../include"]
+  ignore line: [ignoring duplicate directory "c:/devenv/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "c:/devenv/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include"]
+  ignore line: [ignoring duplicate directory "c:\devenv\kendryte-toolchain\bin\../riscv64-unknown-elf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ c:\devenv\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0]
+  ignore line: [ c:\devenv\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0/riscv64-unknown-elf]
+  ignore line: [ c:\devenv\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0/backward]
+  ignore line: [ c:\devenv\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/include]
+  ignore line: [ c:\devenv\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed]
+  ignore line: [ c:\devenv\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 8.2.0 (riscv64-unknown-elf)]
+  ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096]
+  ignore line: [Compiler executable checksum: ef61d50fc68e6680db9bb7b8b9c77491]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-Os' '-ggdb' '-std=gnu++17' '-LE:/Project/Polaris/Code/K210/Polaris/sdk/k210/include/' '-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu++17' '-Wall' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wextra' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-v' '-o' 'CMakeFiles\cmTC_f61b5.dir\CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [ c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/as.exe -v --traditional-format -march=rv64imafc -march=rv64imafc -mabi=lp64f -mabi=lp64f -o CMakeFiles\cmTC_f61b5.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\34894\AppData\Local\Temp\ccha0Dvo.s]
+  ignore line: [GNU assembler version 2.31.51 (riscv64-unknown-elf) using BFD version (GNU Binutils) 2.31.51]
+  ignore line: [COMPILER_PATH=c:/devenv/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/]
+  ignore line: [c:/devenv/kendryte-toolchain/bin/../libexec/gcc/]
+  ignore line: [c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/]
+  ignore line: [LIBRARY_PATH=c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/]
+  ignore line: [c:/devenv/kendryte-toolchain/bin/../lib/gcc/]
+  ignore line: [c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/]
+  ignore line: [c:/devenv/kendryte-toolchain/bin/../riscv64-unknown-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-Os' '-ggdb' '-std=gnu++17' '-LE:/Project/Polaris/Code/K210/Polaris/sdk/k210/include/' '-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu++17' '-Wall' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wextra' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-v' '-o' 'CMakeFiles\cmTC_f61b5.dir\CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [Linking CXX executable cmTC_f61b5]
+  ignore line: [C:\DevEnv\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_f61b5.dir\link.txt --verbose=1]
+  ignore line: [C:\DevEnv\Kendryte-Toolchain\bin\riscv64-unknown-elf-g++.exe  -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -LE:/Project/Polaris/Code/K210/Polaris/sdk/k210/include/ -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses   -v CMakeFiles/cmTC_f61b5.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_f61b5 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\DevEnv\Kendryte-Toolchain\bin\riscv64-unknown-elf-g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/devenv/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe]
+  ignore line: [Target: riscv64-unknown-elf]
+  ignore line: [Configured with: /workdir/riscv-gcc/configure --target=riscv64-unknown-elf --host=x86_64-w64-mingw32 --prefix=/opt/kendryte-toolchain --disable-shared --enable-threads=posix --enable-languages=c c++ --enable-libatomic --without-system-zlib --enable-tls --with-newlib --with-sysroot=/opt/kendryte-toolchain/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --src=.././riscv-gcc --enable-checking=yes --disable-multilib --with-abi=lp64f --with-arch=rv64imafc 'CFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections  -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections -mcmodel=medany']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=c:/devenv/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/]
+  ignore line: [c:/devenv/kendryte-toolchain/bin/../libexec/gcc/]
+  ignore line: [c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/]
+  ignore line: [LIBRARY_PATH=c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/]
+  ignore line: [c:/devenv/kendryte-toolchain/bin/../lib/gcc/]
+  ignore line: [c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/]
+  ignore line: [c:/devenv/kendryte-toolchain/bin/../riscv64-unknown-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-Os' '-ggdb' '-std=gnu++17' '-LE:/Project/Polaris/Code/K210/Polaris/sdk/k210/include/' '-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu++17' '-Wall' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wextra' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-v' '-o' 'cmTC_f61b5']
+  link line: [ c:/devenv/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/collect2.exe -plugin c:/devenv/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=c:/devenv/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\34894\AppData\Local\Temp\ccZYthpw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=c:\devenv\kendryte-toolchain\bin\../riscv64-unknown-elf -melf64lriscv -o cmTC_f61b5 c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o -LE:/Project/Polaris/Code/K210/Polaris/sdk/k210/include/ -Lc:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0 -Lc:/devenv/kendryte-toolchain/bin/../lib/gcc -Lc:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib -Lc:/devenv/kendryte-toolchain/bin/../riscv64-unknown-elf/lib CMakeFiles/cmTC_f61b5.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc --start-group -lc -lgloss --end-group -lgcc c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o]
+    arg [c:/devenv/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [c:/devenv/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=c:/devenv/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\34894\AppData\Local\Temp\ccZYthpw.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgloss] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=c:\devenv\kendryte-toolchain\bin\../riscv64-unknown-elf] ==> ignore
+    arg [-melf64lriscv] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f61b5] ==> ignore
+    arg [c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o] ==> obj [c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o]
+    arg [c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o] ==> obj [c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o]
+    arg [-LE:/Project/Polaris/Code/K210/Polaris/sdk/k210/include/] ==> dir [E:/Project/Polaris/Code/K210/Polaris/sdk/k210/include/]
+    arg [-Lc:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0] ==> dir [c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0]
+    arg [-Lc:/devenv/kendryte-toolchain/bin/../lib/gcc] ==> dir [c:/devenv/kendryte-toolchain/bin/../lib/gcc]
+    arg [-Lc:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib] ==> dir [c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib]
+    arg [-Lc:/devenv/kendryte-toolchain/bin/../riscv64-unknown-elf/lib] ==> dir [c:/devenv/kendryte-toolchain/bin/../riscv64-unknown-elf/lib]
+    arg [CMakeFiles/cmTC_f61b5.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--start-group] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgloss] ==> lib [gloss]
+    arg [--end-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o] ==> obj [c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o]
+  collapse obj [c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o] ==> [C:/DevEnv/Kendryte-Toolchain/riscv64-unknown-elf/lib/crt0.o]
+  collapse obj [c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o] ==> [C:/DevEnv/Kendryte-Toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o]
+  collapse obj [c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o] ==> [C:/DevEnv/Kendryte-Toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o]
+  collapse library dir [E:/Project/Polaris/Code/K210/Polaris/sdk/k210/include/] ==> [E:/Project/Polaris/Code/K210/Polaris/sdk/k210/include]
+  collapse library dir [c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0] ==> [C:/DevEnv/Kendryte-Toolchain/lib/gcc/riscv64-unknown-elf/8.2.0]
+  collapse library dir [c:/devenv/kendryte-toolchain/bin/../lib/gcc] ==> [C:/DevEnv/Kendryte-Toolchain/lib/gcc]
+  collapse library dir [c:/devenv/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib] ==> [C:/DevEnv/Kendryte-Toolchain/riscv64-unknown-elf/lib]
+  collapse library dir [c:/devenv/kendryte-toolchain/bin/../riscv64-unknown-elf/lib] ==> [C:/DevEnv/Kendryte-Toolchain/riscv64-unknown-elf/lib]
+  implicit libs: [stdc++;m;gcc;c;gloss;gcc]
+  implicit objs: [C:/DevEnv/Kendryte-Toolchain/riscv64-unknown-elf/lib/crt0.o;C:/DevEnv/Kendryte-Toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o;C:/DevEnv/Kendryte-Toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o]
+  implicit dirs: [E:/Project/Polaris/Code/K210/Polaris/sdk/k210/include;C:/DevEnv/Kendryte-Toolchain/lib/gcc/riscv64-unknown-elf/8.2.0;C:/DevEnv/Kendryte-Toolchain/lib/gcc;C:/DevEnv/Kendryte-Toolchain/riscv64-unknown-elf/lib]
+  implicit fwks: []
+
+

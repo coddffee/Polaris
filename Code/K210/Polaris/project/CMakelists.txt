@@ -1,0 +1,14 @@
+set(CMAKE_SYSTEM_NAME Generic)
+cmake_minimum_required(VERSION 3.0)
+set(CMAKE_C_STANDARD 99)
+
+# 便利所有源文件
+file(GLOB_RECURSE SOURCE_FILES "${CMAKE_CURRENT_LIST_DIR}/*.c")
+include_directories(${CMAKE_CURRENT_LIST_DIR})
+
+# 生成可执行文件，SOURCE_FILES是executable.cmake中要求定义的变量，用于存储用来生成可执行文件的源文件
+# 在executable.cmake中，可执行文件名被要求为${PROJECT_NAME}
+include(${PROJECT_SOURCE_DIR}/sdk/k210/cmake/executable.cmake)
+
+# 设置目标文件前后缀
+set_target_properties(${PROJECT_NAME} PROPERTIES PREFIX "" SUFFIX ".elf")
