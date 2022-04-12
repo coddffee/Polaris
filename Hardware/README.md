@@ -20,7 +20,7 @@
 |     VDDPLL     |   0.9V    |               锁相环电路供电               |   15mA   |
 |     VSSPLL     |    0V     |          锁相环电路接地，噪声敏感          |   ---    |
 
-&emsp;&emsp;K210的48个GPIO按照电源可为3组，分别是VDDIOxA,VDDIOxB,VDDIOxC, A,B,C三组又可分为8个Bank，分别为Bank0~Bank7,分别对应的GPIO为：
+&emsp;&emsp;K210的48个GPIO按照电源可分为3组，分别是VDDIOxA,VDDIOxB,VDDIOxC, A,B,C三组又可分为8个Bank，分别为Bank0~Bank7,分别对应的GPIO为：
 
 | Bank | Bank |    GPIO     |
 | :--: | :--: | :---------: |
@@ -55,7 +55,7 @@
 | OSC_CLK(L3)  | 有源振荡器输出 | 时钟源自外部无源晶振 |
 |   CLK(M2)    |  系统时钟输入  |     输入有源信号     |
 
-&emsp;&emsp;可直接向CLK输入有源信号为系统提供时钟，也可接入无源晶振，再将OSC_CLK输出的信号输入CLK为系统提供时钟。
+&emsp;&emsp;可直接向CLK输入有源信号为系统提供时钟，也可接入26MHz无源晶振，再将OSC_CLK输出的信号输入CLK为系统提供时钟。
 
 ### BOOT
 
@@ -74,4 +74,4 @@
 | F_CLK(K1) |  CLK  |      SPI Clock, 1.8V only      |
 | F_CS(G2)  |  /CS  |   SPI Chip Select, 1.8V only   |
 
-&emsp;&emsp;SPI-FLASH芯片必须使用1.8V芯片，可选择容量为SPI-NOR-FLASH类型的8MiB(8.192MB)/16MiB(16.384MB)/32MiB(32.768MB).通信协议使用QSPI(6wire).
+&emsp;&emsp;SPI-FLASH芯片必须使用1.8V芯片，可选择容量为SPI-NOR-FLASH类型的8MiB(8.192MB)/16MiB(16.384MB)/32MiB(32.768MB).通信协议使用QSPI(Queued-SPI,6wire).
