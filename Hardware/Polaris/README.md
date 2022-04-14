@@ -55,7 +55,7 @@
 | OSC_CLK(L3)  | 有源振荡器输出 | 时钟源自外部无源晶振 |
 |   CLK(M2)    |  系统时钟输入  |     输入有源信号     |
 
-&emsp;&emsp;可直接向CLK输入有源信号为系统提供时钟，也可接入26MHz无源晶振，再将OSC_CLK输出的信号输入CLK为系统提供时钟。
+&emsp;&emsp;可直接向CLK输入有源信号为系统提供时钟，也可接入26MHz无源晶振，再将OSC_CLK输出的信号输入CLK为系统提供时钟。具体选用SMD-3225四脚封装形式的26MHz无源晶振。
 
 ### BOOT
 
@@ -74,13 +74,13 @@
 | F_CLK(K1) |  CLK  |      SPI Clock, 1.8V only      |
 | F_CS(G2)  |  /CS  |   SPI Chip Select, 1.8V only   |
 
-&emsp;&emsp;SPI-FLASH芯片必须使用1.8V芯片，可选择容量为SPI-NOR-FLASH类型的8MiB(8.192MB)/16MiB(16.384MB)/32MiB(32.768MB).通信协议使用QSPI(Queued-SPI,6wire).
+&emsp;&emsp;SPI-FLASH芯片必须使用1.8V芯片，可选择容量为SPI-NOR-FLASH类型的8MiB(8.192MB)/16MiB(16.384MB)/32MiB(32.768MB).通信协议使用QSPI(Queued-SPI,6wire).<br>&emsp;&emsp;SPI-FLASH具体型号选用GD25LQ128DWIGR(兆易创新)，1.8V驱动电压，128M-bit存储容量，WSON8(6mm*5mm)封装。
 
 ## 系统电源
 
 ### K210
 
-&emsp;&emsp;必须为K210提供0.9V,1.8V和3.3V三种规格的电压，推荐使用三通道单片机专用电源管理芯片RY1303. RY1303具有三路Buck转换器，输入电压范围为2.7V~5.5V, 输出电压可调范围为0.6V~Vin. 最大连续负载电流为2A, 三通道功率总和必须小于6W. 需注意RY1303与RY1303A有所区别，RY1303的16脚为VCC, RY1303A的16脚为NC.
+&emsp;&emsp;必须为K210提供0.9V,1.8V和3.3V三种规格的电压，推荐使用三通道单片机专用电源管理芯片RY1303. RY1303具有三路Buck转换器，输入电压范围为2.7V-5.5V, 输出电压可调范围为0.6V-Vin. 最大连续负载电流为2A, 三通道功率总和必须小于6W. 需注意RY1303与RY1303A有所区别，RY1303的16脚为VCC, RY1303A的16脚为NC.
 
 ### 其他外设
 
